@@ -1,0 +1,20 @@
+{
+  "name": "misskey-push7-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "dotenv": "^4.0.0",
+    "firebase": "^4.3.0"
+  }
+}
