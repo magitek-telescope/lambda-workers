@@ -1,0 +1,18 @@
+service: github-shiba-api
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  region: ap-northeast-1
+
+functions:
+  postList:
+    handler: handler.index
+    events:
+      - http:
+          path: users/{id}
+          method: get
+          integration: lambda
+          response:
+            headers:
+              Content-Type: "'application/json'"
