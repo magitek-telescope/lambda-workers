@@ -1,0 +1,26 @@
+{
+  "name": "today-contributions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node": "node",
+    "build": "zip -r dist/package.zip handler.js TimeStamp.js .env node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potato4d/today-contributions.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/potato4d/today-contributions/issues"
+  },
+  "homepage": "https://github.com/potato4d/today-contributions#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "dotenv": "^4.0.0",
+    "twitter": "^1.7.0"
+  }
+}
